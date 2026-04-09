@@ -1,32 +1,19 @@
-<<<<<<< HEAD
 # FoodSpot
-=======
+
 # 🍔 FoodSpot Website
 
 A modern, responsive restaurant landing page built with **HTML5 and CSS3**.
 FoodSpot showcases a clean UI design with multiple sections including menu, experts, testimonials, and a contact form.
 
----
-
 ## 🚀 Live Demo
 
-> (Add your deployed link here once live)
-
----
-
 ## 📸 Preview
-
-> Add screenshots of your project here
-
----
 
 ## 🧰 Tech Stack
 
 - HTML5
 - CSS3 (Flexbox & Responsive Design)
 - Font Awesome Icons
-
----
 
 ## ✨ Features
 
@@ -39,18 +26,12 @@ FoodSpot showcases a clean UI design with multiple sections including menu, expe
 - 📩 Contact form UI
 - 🔗 Social media integration
 
----
-
 ## 📂 Project Structure
 
-```
 FoodSpot/
 │── index.html
 │── styles.css
 │── README.md
-```
-
----
 
 ## 🧠 What I Learned
 
@@ -60,25 +41,17 @@ FoodSpot/
 - Managing layout spacing and alignment
 - Creating visually appealing sections
 
----
-
 ## ⚙️ Setup Instructions
 
 1. Clone the repository:
 
-```
 git clone https://github.com/yourusername/foodspot.git
-```
 
 2. Open the project folder:
 
-```
 cd foodspot
-```
 
 3. Open `index.html` in your browser
-
----
 
 ## 📌 Future Improvements
 
@@ -88,8 +61,6 @@ cd foodspot
 - Add animations and transitions
 - Optimize images for performance
 
----
-
 ## 👨🏾‍💻 Author
 
 **Keishawn Starks**
@@ -97,16 +68,11 @@ cd foodspot
 - GitHub: https://github.com/KeysStarks
 - LinkedIn: https://www.linkedin.com/in/keishawn-starks-b35ab0212/
 
----
-
 ## 💡 Acknowledgments
 
 - Images from Unsplash, Pexels, and iStock
 - Icons from Font Awesome
 
----
-
 ## 📜 License
 
 This project is open-source and available under the MIT License.
->>>>>>> 443fe30 (Merge remote changes)

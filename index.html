@@ -5,21 +5,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" class="styles" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>">
-  </head>
+</head>
   <body>
-    <header>
-      <a href="#" class="logo">Food <span>Spot</span></a>
+<header>
+  <a href="#" class="logo">Food <span>Spot</span></a>
 
-      <ul class="navigation">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Expert</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </header>
+  <button class="menu-toggle" aria-label="Toggle-menu">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <nav>
+    <ul class="navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Expert</a></li>
+      <li><a href="#">Testimonials</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
     <section class="banner">
       <div class="content">
@@ -139,7 +144,7 @@
         </div>
       </div>
       <div class="title">
-        <a href="#" class="btn">View All</a>
+        <a href="#" class="btn btn-secondary">View All</a>
       </div>
     </section>
 
@@ -271,36 +276,38 @@
       </div>
     </section>
 
-    <section class="contactus">
-      <div class="title">
-        <h2 class="titleText"><span>C</span>ontact Us</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
-          esse.
-        </p>
-      </div>
-      <form action="#">
-        <div class="contactform">
-          <h3>Send Message</h3>
+<section class="contactus">
+  <div class="title">
+    <h2 class="titleText"><span>C</span>ontact Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, sequi?</p>
+  </div>
 
-          <div class="inputbox">
-            <input type="text" placeholder="Name" required />
-          </div>
+  <div class="contact-container">
+    
+    
+    <form action="#">
+      <div class="contactform">
+        <h3>Send Message</h3>
 
-          <div class="inputbox">
-            <input type="email" placeholder="Email" required />
-          </div>
-
-          <div class="inputbox">
-            <textarea placeholder="Message" required></textarea>
-          </div>
-
-          <div class="inputbox">
-            <input type="submit" value="Send" />
-          </div>
+        <div class="inputbox">
+          <input type="text" placeholder="Name" required />
         </div>
-      </form>
-    </section>
+
+        <div class="inputbox">
+          <input type="email" placeholder="Email" required />
+        </div>
+
+        <div class="inputbox">
+          <textarea placeholder="Message" required></textarea>
+        </div>
+
+        <div class="inputbox">
+          <input type="submit" value="Send" />
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
 
     <footer class="footer">
       <p>Design and code by Keys Starks</p>
@@ -317,5 +324,14 @@
                     <i class="fab fa-linkedin"></i>
       </div>
     </footer>
+
+    <script>
+  const toggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".navigation");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+</script>
   </body>
 </html>
